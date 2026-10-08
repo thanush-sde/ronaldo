@@ -12,6 +12,9 @@ public class AddressDTO {
     @NotBlank(message = "Street address is required")
     private String streetAddress;
 
+
+
+    
     @NotBlank(message = "City is required")
     private String city;
 
